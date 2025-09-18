@@ -50,3 +50,30 @@ key = "banner_title"
 type = "single_line_text_field"
 name = "Banner title"
 description = "Enter a title for the banner"
+
+[[extensions.settings.fields]]
+key = "banner_image_url"
+type = "single_line_text_field"
+name = "Banner Image URL"
+description = "Enter the full URL of the banner image"
+
+[[extensions.settings.fields]]
+key = "button_text"
+type = "single_line_text_field"
+name = "Button Text"
+description = "Text for the call-to-action button"
+default = "Claim Free Gift"
+
+[[extensions.settings.fields]]
+key = "checkbox_text"
+type = "single_line_text_field"
+name = "Checkbox Text"
+description = "Text for the checkbox label"
+default = "I want a free gift"
+
+[[extensions.settings.fields]]
+key = "free_product_variant_id"
+type = "single_line_text_field"
+name = "Free Product Variant ID"
+description = "GID of the product variant to add as free gift"
+default = "gid://shopify/ProductVariant/1234567890"
